@@ -1,0 +1,18 @@
+<framework>
+	<execution>
+		<maxThreadCount> 1 </maxThreadCount>
+		<clock enabled="true" unit="hz">100</clock>
+	</execution>
+	<modulesToEnable>
+                <module>sound_player</module>
+	</modulesToEnable>
+	<module>
+                <name>sound_player</name>
+                <config>
+                    <motorsound>RPM_Low.wav,RPM_Med.wav,RPM_High.wav</motorsound>
+                    <rpm>43,83,143</rpm>
+                </config>
+	</module>
+
+	
+</framework>
